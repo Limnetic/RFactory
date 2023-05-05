@@ -1,0 +1,16 @@
+{
+  "block.rfactory.chemicalplant": "Chemical plant",
+  "block.rfactory.redstonetechblock": "Redstone Tech Block",
+  "item.rfactory.red_iron": "Red Iron",
+  "fluid.rfactory.oil": "Oil",
+  "gui.rfactory.himicalgui.label_energy": "\u003cenergy\u003e",
+  "gui.rfactory.himicalgui.label_chemical_plant": "Chemical Plant",
+  "block.rfactory.redstone_iron_block": "Redstone Iron Block",
+  "block.lac.chemicalplant": "Chemical plant",
+  "item.rfactory.oil_bucket": "Oil Bucket",
+  "block.lac.redstonetechblock": "Redstone Tech Block",
+  "advancements.masterofthemoonshinemachine.descr": "Create Chemical Plant",
+  "item.rfactory.gun": "Fireball Gun",
+  "advancements.masterofthemoonshinemachine.title": "It\u0027s time to drive moonshine!",
+  "block.rfactory.oil": "Oil"
+}

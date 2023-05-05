@@ -1,0 +1,43 @@
+{
+  "_fv": 39,
+  "_type": "fluid",
+  "definition": {
+    "name": "Oil",
+    "bucketName": "Oil Bucket",
+    "textureStill": "oil_block",
+    "textureFlowing": "oil_block",
+    "tintType": "Grass",
+    "canMultiply": false,
+    "flowRate": 20,
+    "levelDecrease": 1,
+    "slopeFindDistance": 2,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "flowStrength": 0.19999999999999998,
+    "luminosity": 5,
+    "density": 800,
+    "viscosity": 2000,
+    "temperature": 305,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "UNCOMMON",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "BLACK"
+  }
+}

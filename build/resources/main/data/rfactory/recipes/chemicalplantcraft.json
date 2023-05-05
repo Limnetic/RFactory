@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:potion"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "item": "rfactory:redstonetechblock"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    },
+    "6": {
+      "item": "minecraft:redstone_wall_torch"
+    },
+    "7": {
+      "item": "minecraft:barrel"
+    },
+    "8": {
+      "item": "minecraft:redstone_wall_torch"
+    }
+  },
+  "result": {
+    "item": "rfactory:chemicalplant",
+    "count": 1
+  }
+}

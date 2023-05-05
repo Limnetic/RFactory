@@ -1,0 +1,294 @@
+{
+  "mod_elements": [
+    {
+      "name": "Chemicalplant",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemicalplant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rfactory/models/block/chemicalplant.json",
+          "src/main/java/com/lyrarmastudio/rfactory/block/ChemicalplantBlock.java",
+          "src/main/java/com/lyrarmastudio/rfactory/block/entity/ChemicalplantBlockEntity.java",
+          "src/main/resources/assets/rfactory/blockstates/chemicalplant.json",
+          "src/main/resources/assets/rfactory/models/item/chemicalplant.json"
+        ]
+      }
+    },
+    {
+      "name": "Redstonetechblock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonetechblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rfactory/models/item/redstonetechblock.json",
+          "src/main/resources/assets/rfactory/blockstates/redstonetechblock.json",
+          "src/main/java/com/lyrarmastudio/rfactory/block/RedstonetechblockBlock.java",
+          "src/main/resources/assets/rfactory/models/block/redstonetechblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Himicalgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "himicalgui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/lyrarmastudio/rfactory/client/gui/HimicalguiScreen.java",
+          "src/main/java/com/lyrarmastudio/rfactory/world/inventory/HimicalguiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Redstoneblockcraft",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstoneblockcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rfactory/recipes/redstoneblockcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "ChemicalplantUpdateTick",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemicalplant_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/com/lyrarmastudio/rfactory/procedures/ChemicalplantUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChemicalplantNaBlokieNazhataPravaiaKnopkaMyshi",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemicalplant_na_blokie_nazhata_pravaia_knopka_myshi",
+      "metadata": {
+        "files": [
+          "src/main/java/com/lyrarmastudio/rfactory/procedures/ChemicalplantNaBlokieNazhataPravaiaKnopkaMyshiProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Chemicalplantcraft",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemicalplantcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rfactory/recipes/chemicalplantcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Masterofthemoonshinemachine",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "masterofthemoonshinemachine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rfactory/advancements/masterofthemoonshinemachine.json"
+        ]
+      }
+    },
+    {
+      "name": "Gun",
+      "type": "rangeditem",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rfactory/models/item/gun.json",
+          "src/main/java/com/lyrarmastudio/rfactory/item/GunItem.java",
+          "src/main/java/com/lyrarmastudio/rfactory/entity/GunEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Fireballgun",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireballgun",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rfactory/recipes/fireballgun.json"
+        ]
+      }
+    },
+    {
+      "name": "RedIron",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_iron",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rfactory/models/item/red_iron.json",
+          "src/main/java/com/lyrarmastudio/rfactory/item/RedIronItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Oil",
+      "type": "fluid",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/lyrarmastudio/rfactory/item/OilItem.java",
+          "src/main/resources/assets/rfactory/models/item/oil_bucket.json",
+          "src/main/resources/assets/rfactory/blockstates/oil.json",
+          "src/main/java/com/lyrarmastudio/rfactory/fluid/OilFluid.java",
+          "src/main/java/com/lyrarmastudio/rfactory/block/OilBlock.java",
+          "src/main/java/com/lyrarmastudio/rfactory/fluid/types/OilFluidType.java",
+          "src/main/resources/assets/rfactory/models/block/oil.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneIronBlock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/java/com/lyrarmastudio/rfactory/block/RedstoneIronBlockBlock.java",
+          "src/main/resources/assets/rfactory/blockstates/redstone_iron_block.json",
+          "src/main/resources/assets/rfactory/models/item/redstone_iron_block.json",
+          "src/main/resources/assets/rfactory/models/block/redstone_iron_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Redstoneironblockcraft",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstoneironblockcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rfactory/recipes/redstoneironblockcraft.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "ChemicalOthtGui",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "ru_ru": {
+      "block.rfactory.chemicalplant": "Химический стол",
+      "block.rfactory.redstonetechblock": "Краснокаменный технический блок",
+      "item.rfactory.red_iron": "Краснокаменный железный слиток",
+      "fluid.rfactory.oil": "Oil",
+      "gui.rfactory.himicalgui.label_energy": "\u003cenergy\u003e",
+      "gui.rfactory.himicalgui.label_chemical_plant": "Chemical Plant GUI",
+      "block.rfactory.redstone_iron_block": "Redstone Iron Block",
+      "block.lac.chemicalplant": "Химический стол",
+      "item.rfactory.oil_bucket": "Ведро с нефтью",
+      "block.lac.redstonetechblock": "Краснокаменный технический блок",
+      "advancements.masterofthemoonshinemachine.descr": "Получите химический стол",
+      "item.rfactory.gun": "Фаербольная пушка",
+      "advancements.masterofthemoonshinemachine.title": "Время гнать самогон!",
+      "block.rfactory.oil": "Нефть"
+    },
+    "en_us": {
+      "block.rfactory.chemicalplant": "Chemical plant",
+      "block.rfactory.redstonetechblock": "Redstone Tech Block",
+      "item.rfactory.red_iron": "Red Iron",
+      "fluid.rfactory.oil": "Oil",
+      "gui.rfactory.himicalgui.label_energy": "\u003cenergy\u003e",
+      "gui.rfactory.himicalgui.label_chemical_plant": "Chemical Plant",
+      "block.rfactory.redstone_iron_block": "Redstone Iron Block",
+      "block.lac.chemicalplant": "Chemical plant",
+      "item.rfactory.oil_bucket": "Oil Bucket",
+      "block.lac.redstonetechblock": "Redstone Tech Block",
+      "advancements.masterofthemoonshinemachine.descr": "Create Chemical Plant",
+      "item.rfactory.gun": "Fireball Gun",
+      "advancements.masterofthemoonshinemachine.title": "It\u0027s time to drive moonshine!",
+      "block.rfactory.oil": "Oil"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "rfactory",
+    "modName": "RFactory",
+    "version": "1.0.0",
+    "author": "fedor, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.lyrarmastudio.rfactory",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

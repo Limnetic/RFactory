@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "rfactory:red_iron"
+    },
+    "1": {
+      "item": "rfactory:red_iron"
+    },
+    "2": {
+      "item": "rfactory:red_iron"
+    },
+    "3": {
+      "item": "rfactory:red_iron"
+    },
+    "4": {
+      "item": "rfactory:red_iron"
+    },
+    "5": {
+      "item": "rfactory:red_iron"
+    },
+    "6": {
+      "item": "rfactory:red_iron"
+    },
+    "7": {
+      "item": "rfactory:red_iron"
+    },
+    "8": {
+      "item": "rfactory:red_iron"
+    }
+  },
+  "result": {
+    "item": "rfactory:redstone_iron_block",
+    "count": 1
+  }
+}

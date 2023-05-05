@@ -1,0 +1,10 @@
+{
+  "parent": "rfactory:custom/chemical_plant",
+  "textures": {
+    "all": "rfactory:blocks/himical_plant",
+    "particle": "rfactory:blocks/himical_plant",
+    "0": "rfactory:blocks/texture",
+    "missing": "rfactory:blocks/"
+  },
+  "render_type": "cutout"
+}

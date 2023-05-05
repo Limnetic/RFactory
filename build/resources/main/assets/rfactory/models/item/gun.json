@@ -1,0 +1,7 @@
+{
+  "parent": "rfactory:custom/fireball_gun",
+  "textures": {
+    "2": "rfactory:blocks/60950ca51bdfa5d4",
+    "particle": "rfactory:items/shotgun"
+  }
+}

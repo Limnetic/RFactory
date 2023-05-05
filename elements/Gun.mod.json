@@ -1,0 +1,37 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "shotgun",
+    "customModelName": "fireball_gun:default",
+    "name": "Fireball Gun",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "MATERIALS"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "shootConstantly": false,
+    "usageCount": 80,
+    "actionSound": {
+      "value": "block.anvil.destroy"
+    },
+    "hasGlow": false,
+    "animation": "block",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 0.2,
+    "bulletPower": 2.5,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 2,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

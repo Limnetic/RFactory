@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rfactory:blocks/block_of_redsoneiron",
+    "particle": "rfactory:blocks/block_of_redsoneiron"
+  },
+  "render_type": "solid"
+}
