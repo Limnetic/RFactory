@@ -318,6 +318,89 @@
           "src/main/resources/assets/rfactory/models/item/energy_metr.json"
         ]
       }
+    },
+    {
+      "name": "SmallBattery",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_battery",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rfactory/blockstates/small_battery.json",
+          "src/main/java/com/lyrarmastudio/rfactory/block/entity/SmallBatteryBlockEntity.java",
+          "src/main/resources/assets/rfactory/models/item/small_battery.json",
+          "src/main/java/com/lyrarmastudio/rfactory/block/SmallBatteryBlock.java",
+          "src/main/resources/assets/rfactory/models/block/small_battery.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallBatteryUpdateTick",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_battery_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/com/lyrarmastudio/rfactory/procedures/SmallBatteryUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChemicalTableProcessTest",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemical_table_process_test",
+      "metadata": {
+        "files": [
+          "src/main/java/com/lyrarmastudio/rfactory/procedures/ChemicalTableProcessTestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -333,9 +416,9 @@
     "ru_ru": {
       "block.rfactory.solar_panel": "Solar Panel",
       "block.rfactory.chemicalplant": "Химический стол",
-      "fluid.rfactory.oil": "Нефть",
-      "item.rfactory.red_iron": "Краснокаменный железный слиток",
       "block.rfactory.redstonetechblock": "Краснокаменный технический блок",
+      "item.rfactory.red_iron": "Краснокаменный железный слиток",
+      "fluid.rfactory.oil": "Нефть",
       "gui.rfactory.himicalgui.label_energy": "\u003cenergy\u003e",
       "item.rfactory.energy_metr": "Energy Metr",
       "gui.rfactory.himicalgui.label_chemical_plant": "Chemical Plant GUI",
@@ -346,14 +429,15 @@
       "advancements.masterofthemoonshinemachine.descr": "Получите химический стол",
       "item.rfactory.gun": "Фаербольная пушка",
       "advancements.masterofthemoonshinemachine.title": "Время гнать самогон!",
-      "block.rfactory.oil": "Нефть"
+      "block.rfactory.oil": "Нефть",
+      "block.rfactory.small_battery": "Small Battery"
     },
     "en_us": {
       "block.rfactory.solar_panel": "Solar Panel",
       "block.rfactory.chemicalplant": "Chemical plant",
-      "block.rfactory.redstonetechblock": "Redstone Tech Block",
-      "item.rfactory.red_iron": "Red Iron",
       "fluid.rfactory.oil": "Oil",
+      "item.rfactory.red_iron": "Red Iron",
+      "block.rfactory.redstonetechblock": "Redstone Tech Block",
       "gui.rfactory.himicalgui.label_energy": "\u003cBNBT:number:energ\u003e/7000",
       "item.rfactory.energy_metr": "Energy Metr",
       "gui.rfactory.himicalgui.label_chemical_plant": "Chemical Plant",
@@ -364,7 +448,8 @@
       "advancements.masterofthemoonshinemachine.descr": "Create Chemical Plant",
       "item.rfactory.gun": "Fireball Gun",
       "advancements.masterofthemoonshinemachine.title": "It\u0027s time to drive moonshine!",
-      "block.rfactory.oil": "Oil"
+      "block.rfactory.oil": "Oil",
+      "block.rfactory.small_battery": "Small Battery"
     }
   },
   "foldersRoot": {

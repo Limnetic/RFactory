@@ -416,9 +416,9 @@
     "ru_ru": {
       "block.rfactory.solar_panel": "Solar Panel",
       "block.rfactory.chemicalplant": "Химический стол",
-      "fluid.rfactory.oil": "Нефть",
-      "item.rfactory.red_iron": "Краснокаменный железный слиток",
       "block.rfactory.redstonetechblock": "Краснокаменный технический блок",
+      "item.rfactory.red_iron": "Краснокаменный железный слиток",
+      "fluid.rfactory.oil": "Нефть",
       "gui.rfactory.himicalgui.label_energy": "\u003cenergy\u003e",
       "item.rfactory.energy_metr": "Energy Metr",
       "gui.rfactory.himicalgui.label_chemical_plant": "Chemical Plant GUI",
@@ -435,9 +435,9 @@
     "en_us": {
       "block.rfactory.solar_panel": "Solar Panel",
       "block.rfactory.chemicalplant": "Chemical plant",
-      "block.rfactory.redstonetechblock": "Redstone Tech Block",
-      "item.rfactory.red_iron": "Red Iron",
       "fluid.rfactory.oil": "Oil",
+      "item.rfactory.red_iron": "Red Iron",
+      "block.rfactory.redstonetechblock": "Redstone Tech Block",
       "gui.rfactory.himicalgui.label_energy": "\u003cBNBT:number:energ\u003e/7000",
       "item.rfactory.energy_metr": "Energy Metr",
       "gui.rfactory.himicalgui.label_chemical_plant": "Chemical Plant",
