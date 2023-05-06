@@ -1,9 +1,9 @@
 {
   "block.rfactory.solar_panel": "Solar Panel",
   "block.rfactory.chemicalplant": "Химический стол",
-  "block.rfactory.redstonetechblock": "Краснокаменный технический блок",
-  "item.rfactory.red_iron": "Краснокаменный железный слиток",
   "fluid.rfactory.oil": "Нефть",
+  "item.rfactory.red_iron": "Краснокаменный железный слиток",
+  "block.rfactory.redstonetechblock": "Краснокаменный технический блок",
   "gui.rfactory.himicalgui.label_energy": "\u003cenergy\u003e",
   "item.rfactory.energy_metr": "Energy Metr",
   "gui.rfactory.himicalgui.label_chemical_plant": "Chemical Plant GUI",

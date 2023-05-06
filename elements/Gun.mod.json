@@ -8,7 +8,7 @@
     "name": "Fireball Gun",
     "specialInfo": [],
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:RFactory"
     },
     "stackSize": 1,
     "ammoItem": {

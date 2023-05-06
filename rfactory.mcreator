@@ -401,6 +401,16 @@
           }
         ]
       }
+    },
+    {
+      "name": "RFactory",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_factory",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [

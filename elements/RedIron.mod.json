@@ -8,7 +8,7 @@
     "name": "Red Iron",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:RFactory"
     },
     "stackSize": 64,
     "enchantability": 0,

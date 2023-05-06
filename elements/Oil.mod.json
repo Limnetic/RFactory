@@ -24,7 +24,7 @@
     "generateBucket": true,
     "textureBucket": "",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:RFactory"
     },
     "emptySound": {
       "value": ""
