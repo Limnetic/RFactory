@@ -1,9 +1,11 @@
 {
+  "block.rfactory.solar_panel": "Solar Panel",
   "block.rfactory.chemicalplant": "Химический стол",
   "fluid.rfactory.oil": "Нефть",
   "item.rfactory.red_iron": "Краснокаменный железный слиток",
   "block.rfactory.redstonetechblock": "Краснокаменный технический блок",
   "gui.rfactory.himicalgui.label_energy": "\u003cenergy\u003e",
+  "item.rfactory.energy_metr": "Energy Metr",
   "gui.rfactory.himicalgui.label_chemical_plant": "Chemical Plant GUI",
   "block.rfactory.redstone_iron_block": "Краснокаменный железный блок",
   "block.lac.chemicalplant": "Химический стол",
@@ -12,5 +14,6 @@
   "advancements.masterofthemoonshinemachine.descr": "Получите химический стол",
   "item.rfactory.gun": "Фаербольная пушка",
   "advancements.masterofthemoonshinemachine.title": "Время гнать самогон!",
-  "block.rfactory.oil": "Нефть"
+  "block.rfactory.oil": "Нефть",
+  "block.rfactory.small_battery": "Small Battery"
 }

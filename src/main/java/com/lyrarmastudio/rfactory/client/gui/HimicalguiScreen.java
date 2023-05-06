@@ -78,7 +78,7 @@ public class HimicalguiScreen extends AbstractContainerScreen<HimicalguiMenu> {
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, Component.translatable("gui.rfactory.himicalgui.label_chemical_plant"), 97, 6, -12829636);
-		this.font.draw(poseStack, Component.translatable("gui.rfactory.himicalgui.label_energy"), 103, 73, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.rfactory.himicalgui.label_energy"), 19, 72, -12829636);
 	}
 
 	@Override

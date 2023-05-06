@@ -159,14 +159,14 @@
         "data": {
           "name": "label_energy",
           "text": {
-            "fixedValue": "<energy>"
+            "fixedValue": "<BNBT:number:energ>/7000"
           },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 186,
-          "y": 102
+          "x": 102,
+          "y": 101
         }
       },
       {

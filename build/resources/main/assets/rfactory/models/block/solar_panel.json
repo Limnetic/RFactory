@@ -1,0 +1,9 @@
+{
+  "parent": "rfactory:custom/solarpanel",
+  "textures": {
+    "all": "rfactory:blocks/himical_plant",
+    "particle": "rfactory:blocks/himical_plant",
+    "1": "rfactory:blocks/texture3"
+  },
+  "render_type": "cutout"
+}

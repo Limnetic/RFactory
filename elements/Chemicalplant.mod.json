@@ -56,7 +56,7 @@
     "material": {
       "value": "IRON"
     },
-    "tickRate": 50,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -111,16 +111,13 @@
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": true,
     "energyInitial": 0,
-    "energyCapacity": 200000,
-    "energyMaxReceive": 200000,
+    "energyCapacity": 5000,
+    "energyMaxReceive": 5000,
     "energyMaxExtract": 250,
     "isFluidTank": true,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "ChemicalplantUpdateTick"
-    },
-    "onBlockPlayedBy": {
       "name": "ChemicalplantUpdateTick"
     },
     "spawnWorldTypes": [],

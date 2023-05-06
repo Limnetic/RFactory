@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rfactory:blocks/energy_output",
+    "up": "rfactory:blocks/energy_output",
+    "north": "rfactory:blocks/energy_input",
+    "east": "rfactory:blocks/energy_output",
+    "south": "rfactory:blocks/energy_output",
+    "west": "rfactory:blocks/energy_output",
+    "particle": "rfactory:blocks/energy_output"
+  },
+  "render_type": "solid"
+}

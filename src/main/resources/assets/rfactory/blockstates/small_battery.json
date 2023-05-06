@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rfactory:block/small_battery"
+    },
+    "facing=east": {
+      "model": "rfactory:block/small_battery",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rfactory:block/small_battery",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rfactory:block/small_battery",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "rfactory:block/small_battery",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "rfactory:block/small_battery",
+      "x": 90
+    }
+  }
+}

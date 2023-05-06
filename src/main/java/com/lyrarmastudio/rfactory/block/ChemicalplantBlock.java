@@ -27,7 +27,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
@@ -106,7 +105,7 @@ public class ChemicalplantBlock extends Block implements EntityBlock {
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 50);
+		world.scheduleTick(pos, this, 1);
 	}
 
 	@Override
@@ -116,13 +115,7 @@ public class ChemicalplantBlock extends Block implements EntityBlock {
 		int y = pos.getY();
 		int z = pos.getZ();
 		ChemicalplantUpdateTickProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 50);
-	}
-
-	@Override
-	public void setPlacedBy(Level world, BlockPos pos, BlockState blockstate, LivingEntity entity, ItemStack itemstack) {
-		super.setPlacedBy(world, pos, blockstate, entity, itemstack);
-		ChemicalplantUpdateTickProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		world.scheduleTick(pos, this, 1);
 	}
 
 	@Override
