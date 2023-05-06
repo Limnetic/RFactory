@@ -9,11 +9,11 @@
       "registry_name": "chemicalplant",
       "metadata": {
         "files": [
+          "src/main/java/com/lyrarmastudio/rfactory/block/entity/ChemicalplantBlockEntity.java",
+          "src/main/resources/assets/rfactory/models/item/chemicalplant.json",
           "src/main/resources/assets/rfactory/models/block/chemicalplant.json",
           "src/main/java/com/lyrarmastudio/rfactory/block/ChemicalplantBlock.java",
-          "src/main/java/com/lyrarmastudio/rfactory/block/entity/ChemicalplantBlockEntity.java",
-          "src/main/resources/assets/rfactory/blockstates/chemicalplant.json",
-          "src/main/resources/assets/rfactory/models/item/chemicalplant.json"
+          "src/main/resources/assets/rfactory/blockstates/chemicalplant.json"
         ]
       }
     },
@@ -41,8 +41,8 @@
       "registry_name": "himicalgui",
       "metadata": {
         "files": [
-          "src/main/java/com/lyrarmastudio/rfactory/client/gui/HimicalguiScreen.java",
-          "src/main/java/com/lyrarmastudio/rfactory/world/inventory/HimicalguiMenu.java"
+          "src/main/java/com/lyrarmastudio/rfactory/world/inventory/HimicalguiMenu.java",
+          "src/main/java/com/lyrarmastudio/rfactory/client/gui/HimicalguiScreen.java"
         ]
       }
     },
@@ -139,8 +139,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rfactory/models/item/gun.json",
-          "src/main/java/com/lyrarmastudio/rfactory/item/GunItem.java",
-          "src/main/java/com/lyrarmastudio/rfactory/entity/GunEntity.java"
+          "src/main/java/com/lyrarmastudio/rfactory/entity/GunEntity.java",
+          "src/main/java/com/lyrarmastudio/rfactory/item/GunItem.java"
         ]
       }
     },
@@ -166,8 +166,8 @@
       "registry_name": "red_iron",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rfactory/models/item/red_iron.json",
-          "src/main/java/com/lyrarmastudio/rfactory/item/RedIronItem.java"
+          "src/main/java/com/lyrarmastudio/rfactory/item/RedIronItem.java",
+          "src/main/resources/assets/rfactory/models/item/red_iron.json"
         ]
       }
     },
@@ -180,13 +180,13 @@
       "registry_name": "oil",
       "metadata": {
         "files": [
-          "src/main/java/com/lyrarmastudio/rfactory/item/OilItem.java",
+          "src/main/resources/assets/rfactory/models/block/oil.json",
           "src/main/resources/assets/rfactory/models/item/oil_bucket.json",
-          "src/main/resources/assets/rfactory/blockstates/oil.json",
           "src/main/java/com/lyrarmastudio/rfactory/fluid/OilFluid.java",
           "src/main/java/com/lyrarmastudio/rfactory/block/OilBlock.java",
+          "src/main/resources/assets/rfactory/blockstates/oil.json",
           "src/main/java/com/lyrarmastudio/rfactory/fluid/types/OilFluidType.java",
-          "src/main/resources/assets/rfactory/models/block/oil.json"
+          "src/main/java/com/lyrarmastudio/rfactory/item/OilItem.java"
         ]
       }
     },
@@ -199,10 +199,10 @@
       "registry_name": "redstone_iron_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/rfactory/models/block/redstone_iron_block.json",
           "src/main/java/com/lyrarmastudio/rfactory/block/RedstoneIronBlockBlock.java",
           "src/main/resources/assets/rfactory/blockstates/redstone_iron_block.json",
-          "src/main/resources/assets/rfactory/models/item/redstone_iron_block.json",
-          "src/main/resources/assets/rfactory/models/block/redstone_iron_block.json"
+          "src/main/resources/assets/rfactory/models/item/redstone_iron_block.json"
         ]
       }
     },
@@ -228,10 +228,10 @@
       "registry_name": "solar_panel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rfactory/models/block/solar_panel.json",
+          "src/main/resources/assets/rfactory/models/item/solar_panel.json",
           "src/main/resources/assets/rfactory/blockstates/solar_panel.json",
-          "src/main/java/com/lyrarmastudio/rfactory/block/SolarPanelBlock.java",
-          "src/main/resources/assets/rfactory/models/item/solar_panel.json"
+          "src/main/resources/assets/rfactory/models/block/solar_panel.json",
+          "src/main/java/com/lyrarmastudio/rfactory/block/SolarPanelBlock.java"
         ]
       }
     },
@@ -328,11 +328,11 @@
       "registry_name": "small_battery",
       "metadata": {
         "files": [
+          "src/main/java/com/lyrarmastudio/rfactory/block/SmallBatteryBlock.java",
           "src/main/resources/assets/rfactory/blockstates/small_battery.json",
           "src/main/java/com/lyrarmastudio/rfactory/block/entity/SmallBatteryBlockEntity.java",
-          "src/main/resources/assets/rfactory/models/item/small_battery.json",
-          "src/main/java/com/lyrarmastudio/rfactory/block/SmallBatteryBlock.java",
-          "src/main/resources/assets/rfactory/models/block/small_battery.json"
+          "src/main/resources/assets/rfactory/models/block/small_battery.json",
+          "src/main/resources/assets/rfactory/models/item/small_battery.json"
         ]
       }
     },
@@ -401,6 +401,16 @@
           }
         ]
       }
+    },
+    {
+      "name": "RFactory",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_factory",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [
@@ -414,15 +424,16 @@
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "block.rfactory.solar_panel": "Solar Panel",
+      "block.rfactory.solar_panel": "Солнечная панель",
       "block.rfactory.chemicalplant": "Химический стол",
-      "fluid.rfactory.oil": "Нефть",
-      "item.rfactory.red_iron": "Краснокаменный железный слиток",
       "block.rfactory.redstonetechblock": "Краснокаменный технический блок",
+      "item.rfactory.red_iron": "Краснокаменный сплав",
+      "fluid.rfactory.oil": "Нефть",
+      "itemGroup.tabr_factory": "RFactory",
       "gui.rfactory.himicalgui.label_energy": "\u003cenergy\u003e",
       "item.rfactory.energy_metr": "Energy Metr",
-      "gui.rfactory.himicalgui.label_chemical_plant": "Chemical Plant GUI",
-      "block.rfactory.redstone_iron_block": "Краснокаменный железный блок",
+      "gui.rfactory.himicalgui.label_chemical_plant": "Chemical plant GUI",
+      "block.rfactory.redstone_iron_block": "Блок из краснокаменного сплава",
       "block.lac.chemicalplant": "Химический стол",
       "item.rfactory.oil_bucket": "Ведро с нефтью",
       "block.lac.redstonetechblock": "Краснокаменный технический блок",
@@ -430,14 +441,15 @@
       "item.rfactory.gun": "Фаербольная пушка",
       "advancements.masterofthemoonshinemachine.title": "Время гнать самогон!",
       "block.rfactory.oil": "Нефть",
-      "block.rfactory.small_battery": "Small Battery"
+      "block.rfactory.small_battery": "Маленький аккумулятор"
     },
     "en_us": {
       "block.rfactory.solar_panel": "Solar Panel",
       "block.rfactory.chemicalplant": "Chemical plant",
-      "block.rfactory.redstonetechblock": "Redstone Tech Block",
-      "item.rfactory.red_iron": "Red Iron",
       "fluid.rfactory.oil": "Oil",
+      "item.rfactory.red_iron": "Red Iron",
+      "block.rfactory.redstonetechblock": "Redstone Tech Block",
+      "itemGroup.tabr_factory": "RFactory",
       "gui.rfactory.himicalgui.label_energy": "\u003cBNBT:number:energ\u003e/7000",
       "item.rfactory.energy_metr": "Energy Metr",
       "gui.rfactory.himicalgui.label_chemical_plant": "Chemical Plant",

@@ -38,6 +38,7 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
+import com.lyrarmastudio.rfactory.init.RfactoryModTabs;
 import com.lyrarmastudio.rfactory.init.RfactoryModMenus;
 import com.lyrarmastudio.rfactory.init.RfactoryModItems;
 import com.lyrarmastudio.rfactory.init.RfactoryModFluids;
@@ -53,7 +54,7 @@ public class RfactoryMod {
 
 	public RfactoryMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		RfactoryModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		RfactoryModBlocks.REGISTRY.register(bus);

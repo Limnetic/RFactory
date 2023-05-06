@@ -7,7 +7,6 @@ import net.minecraft.world.item.ProjectileWeaponItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -20,6 +19,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 
+import com.lyrarmastudio.rfactory.init.RfactoryModTabs;
 import com.lyrarmastudio.rfactory.entity.GunEntity;
 
 import com.google.common.collect.Multimap;
@@ -27,7 +27,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class GunItem extends Item {
 	public GunItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).durability(80));
+		super(new Item.Properties().tab(RfactoryModTabs.TAB_R_FACTORY).durability(80));
 	}
 
 	@Override
